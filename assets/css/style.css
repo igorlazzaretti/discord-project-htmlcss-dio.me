@@ -115,8 +115,6 @@ header button{
         width: 428px;
         
     }
-
-
 }
 
 /* MAIN - MAIN - MAIN */
@@ -125,8 +123,16 @@ header button{
     width: 100%;
     height: 474px;
 }
+#div_section_A{
+    width: 971px;
+    height: 394px;
+}
 @media screen and (max-width: 1200px){
 #section_A{
+    height: 573px;
+}
+#div_section_A{
+    width: 428px;
     height: 573px;
 }
 
