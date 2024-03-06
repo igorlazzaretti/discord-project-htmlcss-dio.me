@@ -23,6 +23,7 @@ header {
 }
 
 #header_content {
+  padding: 4vw 0 4vw 0;
   width: 750px;
   text-align: center;
 }
@@ -129,6 +130,7 @@ header button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #div_section_A {
@@ -146,6 +148,7 @@ header button:hover {
 #div_section_A_txt {
   width: 348px;
   height: 374px;
+  flex-wrap: wrap;
 }
 
 #div_section_A_txt h2 {
@@ -419,20 +422,23 @@ header button:hover {
 /* SECTION D MEDIA- SECTION D MEDIA */
 @media screen and (max-width: 1200px) {
   #section_D {
-    height: 560px;
+    height: clamp(20px,560px, 1000px);
   }
 
   #div_section_D {
     width: 380px;
-    height: 140px;
+    max-height: 140px;
+    
+
   }
 
   #div_section_D_txt {
-    width: 380px;
+    max-width: 380px;
+    
   }
 
   #div_section_D_txt h2 {
-    width: 380px;
+    max-width: 380px;
     text-align: left;
   }
 
@@ -446,8 +452,8 @@ header button:hover {
   }
 
   #div_section_D_img img {
-    width: 379px;
-    height: 252px;
+    max-width: 379px;
+    max-height: 252px;
   }
 }
 
