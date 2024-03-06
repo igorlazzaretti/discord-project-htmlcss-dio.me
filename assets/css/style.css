@@ -29,7 +29,7 @@ header {
 
 #header_h1_imagine {
   font-family: "Luckiest Guy", cursive;
-  font-size: 56px;
+  font-size: clamp(1em, 56px, 78px);
   font-style: normal;
   font-weight: 400;
   line-height: 56px;
@@ -92,7 +92,7 @@ header button:hover {
   }
 
   #header_content {
-    width: 450px;
+    width: clamp(20px, 70vw, 480px);
     text-align: center;
     text-align: left;
   }
@@ -112,12 +112,12 @@ header button:hover {
   }
 
   #header_button_win {
-    width: 428px;
+    width: clamp(20px, 70vw, 480px);
     margin-bottom: 16px;
   }
 
   #header_button_nav {
-    width: 428px;
+    width: clamp(20px, 70vw, 480px);
   }
 }
 
@@ -168,30 +168,30 @@ header button:hover {
 
 @media screen and (max-width: 1200px) {
   #section_A {
-    height: 573px;
+    height: clamp(2vw, 573px, 1500px);
   }
 
   #div_section_A {
-    width: 428px;
-    height: 573px;
+    width: clamp(2vw, 428px, 1500px);
+    height: clamp(2vw, 428px, 1500px);
     flex-direction: column;
   }
 
   #div_section_A_img {
-    width: 379px;
+    width: clamp(50px, 379px, 500px);
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   #div_section_A_img img {
-    width: 379px;
-    height: 252px;
+    width: clamp(50px, 379px, 600px);
+    height: clamp(50px, 252px, 290px);
   }
 
   #div_section_A_txt {
-    width: 379px;
-    height: 374px;
+    width: clamp(5px, 379px, 500px);
+    height: clamp(5px, 374px, 1290px);
   }
 
   #div_section_A_txt h2 {
@@ -255,17 +255,17 @@ header button:hover {
 
 @media screen and (max-width: 1200px) {
   #section_B {
-    height: 507px;
+    height: clamp(2vw, 507px, 1000px);;
   }
 
   #div_section_B {
     flex-direction: column-reverse;
-    width: 379px;
+    width: clamp(100px, 379px, 500px);
     height: 0px;
   }
 
   #div_section_B_txt {
-    width: 379px;
+    width: clamp(2vw, 379px, 500px);
   }
 
   #div_section_B_txt h2 {
@@ -276,11 +276,11 @@ header button:hover {
   }
 
   #div_section_B_img {
-    width: 379px;
+    width: clamp(2vw, 379px, 500px);
   }
 
   #div_section_B_img img {
-    width: 379px;
+    width: clamp(2vw, 379px, 500px);
   }
 }
 
