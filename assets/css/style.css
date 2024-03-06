@@ -297,6 +297,7 @@ line-height: 54px;
     width: 600px;
     text-align: center;
     margin-bottom: 16px;
+    line-height: 40px;
     
 }
 #div_section_D_txt p{
@@ -304,6 +305,7 @@ line-height: 54px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
 
 }
 #div_section_D_img{
@@ -332,7 +334,9 @@ line-height: 54px;
     width: 380px;
     text-align: left;
 }
-#div_section_D_txt p{}
+#div_section_D_txt p{
+    margin-bottom: 34px;
+}
 
 #div_section_D_img{
     width: auto;
