@@ -272,6 +272,7 @@ line-height: 54px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F6F6F6;
 }
 #div_section_D{
     display: flex;
