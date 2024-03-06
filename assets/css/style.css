@@ -204,7 +204,8 @@ header button:hover {
   }
 
   #div_section_A_txt p {
-    font-size: 16px;
+    font-size: 16x;
+    line-height: 22px;
   }
 }
 
@@ -272,6 +273,9 @@ header button:hover {
   }
 
   #div_section_B_txt h2 {
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
   }
 
   #div_section_B_txt p {
@@ -357,10 +361,14 @@ header button:hover {
   }
 
   #div_section_C_txt h2 {
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
   }
 
   #div_section_C_txt p {
-    font-size: 16px;
+    font-size: 16x;
+    line-height: 22px;
   }
 }
 
@@ -428,21 +436,25 @@ header button:hover {
   #div_section_D {
     width: 380px;
     max-height: 140px;
-    
-
+ 
   }
 
   #div_section_D_txt {
     max-width: 380px;
-    
+ 
   }
 
   #div_section_D_txt h2 {
     max-width: 380px;
     text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
   }
 
   #div_section_D_txt p {
+    font-size: 16x;
+    line-height: 22px;
     margin-bottom: 34px;
   }
 
