@@ -17,7 +17,6 @@
             margin: 0;
             padding: 0;
         }
-
         html {
             font-family: Arial, sans-serif;
             width: 100%;
@@ -32,7 +31,7 @@
             flex-direction: column;
         }
         div {
-            margin-top: 20rem;
+            margin-top: 23vh;
         }
         .link {
             display: flex;
@@ -43,12 +42,12 @@
             text-decoration: none;
             border-radius: 40px;
             margin: 20px;
-            font-size: 3rem;
+            font-size: 3vw;
             transition: all 0.1s ease-in-out;
             font-family: "Press Start 2P", system-ui;
             font-weight: 200;
             font-style: normal;
-            line-height: 90px;
+            line-height: 4vw;
         }
         .link:hover {
             transform: scale(1.2);
@@ -59,6 +58,18 @@
         a:hover::before {
             content: '➡';
         }
+        #igorlazzaretti{
+            color: aliceblue;
+        }
+        @media screen and (max-width:800px) {
+            .link{
+                font-size: 5vw;
+                line-height: 6vw;
+            }
+            div {
+            margin-top: 17vh;
+            }
+        }
     </style>
 
     <body>
@@ -67,7 +78,7 @@
                 <p>Deploy</p>
             </a>
             <a href="./vscode.html" class="link"> <p>Code</p> </a>
-            <a href="https://igorlazzaretti.com/" class="link"> <p>igorlazzaretti.com</p> </a>
+            <a href="https://igorlazzaretti.com/" class="link"> <p id="igorlazzaretti">igorlazzaretti.com</p> </a>
 
         </div>
     </body>
